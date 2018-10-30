@@ -1,0 +1,12 @@
+<div class="gossip_listing">
+<h1>Welcome Visitor!</h1>
+<p>Here are all gossips:</p>
+
+<% @gossips.each do |gossip| %>
+
+	N° <%= gossip.id %> <%= gossip.author %>: <%= gossip.content %>
+	 <br />
+	 <br />
+<% end %>
+
+</div>
